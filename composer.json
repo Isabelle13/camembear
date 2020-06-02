@@ -31,6 +31,7 @@
         "symfony/yaml": "5.1.*"
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
@@ -41,7 +42,11 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "platform" : {
+            "php": "7.2.24"
+        }
+
     },
     "autoload": {
         "psr-4": {
